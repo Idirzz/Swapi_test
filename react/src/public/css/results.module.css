@@ -1,0 +1,91 @@
+body {
+    background: url('../img/stars.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+
+.resultlist{
+    display : flex;
+    padding-top : 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result{
+    color : white;
+    background-color: rgb(14, 14, 14);
+    font-weight: 640;
+    border-radius: 3px;
+    margin-top:20px;
+    border : 4px solid #fbe122;
+    width : 80%;
+    padding :20px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details{
+    display:flex;
+    justify-content: center;
+    flex-direction : column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.detailchild{
+    margin-top: 1px;
+}
+
+.appearances{
+    margin-top: 50px;
+    border-radius: 15px;
+    display : flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.appearanceschild{
+    align-items: center;
+    display : flex;
+    margin-left: 1vw;
+    flex-direction: column;
+}
+
+.appearancestitle{
+    font-weight: 750;
+}
+
+.managepage{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pagebuttons {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-color: rgb(14, 14, 14);
+	border-radius:6px;
+    border : 1px solid #fbe122;
+	cursor:pointer;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 32px;
+	text-decoration:none;
+}
+.pagebuttons:hover {
+	background:linear-gradient(to bottom,rgb(14, 14, 14) 5%,rgb(14, 14, 14) 100%);
+	background-color:rgb(14, 14, 14);
+}
+.pagebuttons:active {
+	position:relative;
+	top:1px;
+}
+
+.childappear{
+    cursor: pointer;
+}

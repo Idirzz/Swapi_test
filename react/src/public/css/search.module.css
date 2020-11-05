@@ -1,0 +1,47 @@
+.mainflex{
+    padding-top : 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbox{
+    background-color: rgb(14, 14, 14);
+    width : 100%;
+    min-height: 100px;
+    border : 2px solid #fbe122;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown{
+    font-weight: 640;
+    margin : 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputs{
+    margin : 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputsearch{
+    width:100%;
+    font-weight: 640;
+    outline:none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+}
+
+.submit {
+    background-color: red;
+    color : red;
+}
